@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E9AD5B5D1C988DD800426C6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9AD5B5C1C988DD800426C6B /* main.cpp */; };
+		E9AD5B651C9894B000426C6B /* FizzBuzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9AD5B631C9894B000426C6B /* FizzBuzz.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E9AD5B591C988DD800426C6B /* XcodeStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XcodeStudy; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AD5B5C1C988DD800426C6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E9AD5B631C9894B000426C6B /* FizzBuzz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FizzBuzz.cpp; sourceTree = "<group>"; };
+		E9AD5B641C9894B000426C6B /* FizzBuzz.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FizzBuzz.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E9AD5B5C1C988DD800426C6B /* main.cpp */,
+				E9AD5B631C9894B000426C6B /* FizzBuzz.cpp */,
+				E9AD5B641C9894B000426C6B /* FizzBuzz.hpp */,
 			);
 			path = XcodeStudy;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9AD5B5D1C988DD800426C6B /* main.cpp in Sources */,
+				E9AD5B651C9894B000426C6B /* FizzBuzz.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
